@@ -1,0 +1,25 @@
+{
+  "name": "millares-sall-terrazos",
+  "version": "1.0.0",
+  "description": "Mi primer proyecto en GitHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss  css/main.css", 
+    "watch-css": "nodemon -e scss -x \"npm run build-css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidamillares/millares-sall-terrazos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidamillares/millares-sall-terrazos/issues"
+  },
+  "homepage": "https://github.com/davidamillares/millares-sall-terrazos#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

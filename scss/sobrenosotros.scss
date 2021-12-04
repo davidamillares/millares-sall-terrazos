@@ -1,0 +1,118 @@
+.main-02{
+    display: block;
+}
+
+.sobrenosotros-section-01{
+    display: flex;
+    height: 57rem;
+    margin-bottom: 7.5rem;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-secondary;
+    text-align: center;
+    box-sizing: border-box;
+    /* position: relative; */
+    overflow: hidden;
+}
+
+.sobrenosotros-section-01-video{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    transform: translate(-50%,-50%);
+  
+}
+
+.sobrenosotros-section-02-h2{
+    width: 100%;
+    max-width: 788px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 450;
+    font-family: $font-title;
+}
+
+.sobrenosotros-section-02{
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    height: 57.5rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    height: 38.0625rem;
+    color: $color-secondary;
+    text-align: center;
+    background-size: cover;
+    background-position: 50%;
+    margin-bottom: 2.5rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.sobrenosotros-section-03{
+    @include size(57rem, 100%);
+    display: flex;
+    margin-top: 7.5rem;
+    margin-bottom: 7.5rem;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-secondary;
+    text-align: center;
+    background-size: cover;
+    background-position: 50%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.sobrenosotros-section-04{
+    margin-bottom: 7.5rem;
+    padding-top: 0;
+    color: $color-secondary;
+    box-sizing: border-box;
+}
+
+.sobrenosotros-section-04-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobrenosotros-section-04-div-contenido{
+    flex: 0 0 40%;
+    max-width: 40%;
+    padding: 0 0 0 calc(45vw + 2rem - 648px);
+    font-style: italic;
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+.sobrenosotros-section-04-div-img{
+    width: auto;
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 0;
+    max-height: 700px;
+    max-height: 37.5vw;
+    object-fit: cover;
+    display: block;
+}
+
+#packaging-mas-respetuoso{
+    margin-top: -7.5rem;
+}

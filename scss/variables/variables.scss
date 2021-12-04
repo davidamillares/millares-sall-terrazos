@@ -1,0 +1,17 @@
+//Color
+$color-main:#000000;
+$color-secondary:#fff;
+$color-contact:#5b5753;
+$color-menu-hover:rgba(214, 216, 197, 0.857);
+
+//Fuentes
+$font-main:Open Sans;
+$font-title:Shippori Mincho;
+
+//Mixins
+@mixin size($alto, $ancho) {
+    height: $alto;
+    width: $ancho;
+}
+
+

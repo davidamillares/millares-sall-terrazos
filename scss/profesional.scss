@@ -1,0 +1,25 @@
+.profesional-section-01{
+    display: flex;
+    @include size(57rem, 100%);
+    margin-bottom: 7.5rem;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    color: $color-secondary;
+    text-align: center;
+    background-size: cover;
+    background-position: 50%;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+.profesional-section-01-text{
+   
+    color:$color-secondary;
+    font-size: 40px;
+    font-family: $font-title;
+    margin: 0 0 1rem;
+    font-weight: 400;
+
+}
