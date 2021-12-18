@@ -29,6 +29,52 @@
 
 <body>
     <!--Este es el menu general-->
+
+     <!--Este es la hamburguesa-->
+     <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="logo-hamburguesa" href="../index.html">
+              <img src="../public/img/logo-white.png" alt="Logo">
+          </a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <a class="logo-hamburguesa" href="../index.html">
+                    <img class="logo-hamburguesa" src="../public/img/logo.png" alt="Logo">
+                </a>
+                
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body bg-light">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link text-dark" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="sobrenosotros.html">Sobre Nosotros</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="profesional.html">Profesional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href=""></a>
+                  </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+
     <header class="header">
         <div class="header-contenido">
             <!--Este es el menu de la izquierda-->
@@ -81,10 +127,65 @@
                  
         </section>
 
-        <h2 class="contacto-section-02-h2">Empecemos</h2>
-        <p class="contacto-section-02-p">Nos encantaría colaborar en tus proyectos trabajando contigo en cada fase del proceso creativo, aquí podrás encontrar todos los materiales necesarios para desarrollar tu proyecto con nosotros.</p>
+        <div class="profesional-section-02-div">
+            <h2 class="contacto-section-02-h2">Empecemos</h2>
+            <p class="contacto-section-02-p">Nos encantaría colaborar en tus proyectos trabajando contigo en cada fase del proceso creativo, aquí podrás encontrar todos los materiales necesarios para desarrollar tu proyecto con nosotros.</p>
+        </div>
+        
 
     </main>
+
+</section>
+
+<section class="sobrenosotros-section-04 sobrenosotros alignfull " style="background-color: #c6c3bf">
+    <div class="sobrenosotros-section-04-div">
+      <div class="sobrenosotros-section-04-div-contenido">
+              <h2 class="sobrenosotros-section-04-h2">Catálogo 2021</h2>
+              <p class="sobrenosotros-section-04-p"> Este año hemos querido ofrecer una visión más humana, cercana e íntima, Behaviors Around Floor, es un concepto que recrea las sensaciones y comportamientos alrededor de nuestros pavimentos.</p>
+              <br>
+              
+  
+        </div>
+            <img width="768" height="535" src="../public/img/profesional-05.png" class="sobrenosotros-section-04-div-img" alt="sobrenosotros-04">
+    </div>
+  </section>
+
+  <section id="packaging-mas-respetuoso" class="sobrenosotros-section-04" style="background-color: #8ca391">
+
+    <div class="sobrenosotros-section-04-div">
+        <img width="768" height="535" src="../public/img/profesional-06.jpg" class="sobrenosotros-section-04-div-img" alt="sobrenosotros-05">
+        <div class="sobrenosotros-section-04-div-contenido-dcha">
+            <h2 class="sobrenosotros-section-04-h2">Imágenes · Archivos CAD · Fichas técnicas</h2>
+            <p class="sobrenosotros-section-04-p"> Hemos creado este SITIO WEB para que puedas desarrollar tus proyectos de forma más rápida y sencilla. En el detalle de cada producto encontrarás todos los recursos necesarios para incorporar nuestros productos a tus proyectos desde archivos 2D y 3D, Imágenes, Fichas técnicas, etc.</p>
+            <br>
+        </div>    
+    </div>   
+  </section>
+
+  <section class="sobrenosotros-section-04-bis sobrenosotros alignfull " style="background-color: #673732">
+    <div class="sobrenosotros-section-04-div">
+      <div class="sobrenosotros-section-04-div-contenido">
+              <h2 class="sobrenosotros-section-04-h2">Acabados</h2>
+              <p class="sobrenosotros-section-04-p"> Descubre nuestra gama de colores y acabados disponibles para generar tu propio diseño.</p>
+              <br>
+              
+  
+        </div>
+            <img width="768" height="535" src="../public/img/profesional-07.jpg" class="sobrenosotros-section-04-div-img" alt="sobrenosotros-04">
+    </div>
+  </section>
+
+  <section id="packaging-mas-respetuoso" class="sobrenosotros-section-04" style="background-color: #bb9e9e">
+
+    <div class="sobrenosotros-section-04-div">
+        <img width="768" height="535" src="../public/img/profesional-08.jpeg" class="sobrenosotros-section-04-div-img" alt="sobrenosotros-05">
+        <div class="sobrenosotros-section-04-div-contenido-dcha">
+            <h2 class="sobrenosotros-section-04-h2">Aplicaciones</h2>
+            <p class="sobrenosotros-section-04-p"> Descubre nuestra galería con una selección de los proyectos más destacados, realizados por profesionales de renombre.</p>
+            <br>
+        </div>    
+    </div>   
+  </section>
 
      <!--Este es el footer de mi pagina-->
      <footer class="footer">

@@ -1,3 +1,53 @@
+/*hamburguesa*/
+
+
+
+@media (max-width:1300px){
+    .container-fluid {
+        background-color: black;
+    }
+    }
+
+
+.bg-dark{
+    --bs-bg-opacity: 0;
+}
+
+@media (max-width:1300px){
+    .bg-dark {
+        --bs-bg-opacity: 1;
+    }
+    }
+
+@media (max-width:1300px){
+    .header-contenido {
+        display: none;
+    }
+    }
+
+.navbar-toggler{
+    display: none;
+
+}
+
+@media (max-width:1300px){
+    .navbar-toggler {
+        display: flex;
+    }
+    }
+
+.navbar-toggler-icon{
+    display: none;
+}
+
+@media (max-width:1300px){
+    .navbar-toggler-icon {
+        display: flex;
+    }
+    }
+
+
+
 body{
     display: block;
     margin: 0;
@@ -16,6 +66,12 @@ body{
     width: 100%; 
 }
 
+@media (max-width:1300px){
+    .header {
+        display: none;
+    }
+    }
+
 /** header-home **/
 
 .header-home{
@@ -32,10 +88,9 @@ body{
     width: 100%; 
 }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     .header-home {
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
+        display: none;
     }
     }
 
@@ -56,7 +111,7 @@ body{
     padding-right: 2rem;
 }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     .header-contenido {
         padding-left: 0.5rem;
         padding-right: 0.5rem;
@@ -82,7 +137,7 @@ body{
     justify-content: left;
 }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     #menu-izquierda {
         flex-direction: column;
         align-items:flex-start;
@@ -103,13 +158,13 @@ body{
 }
 
 
-@media (max-width:768px){
+@media (max-width:1300px){
     #menu-item {
         font-size: 0.9rem;
     }
     }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     #menu-item-contacto {
         font-size: 0.9rem;
         display: flex;
@@ -120,6 +175,7 @@ body{
 .boton-menu{
     text-decoration: none;
     list-style: none;
+    color: black;
 }
 
 /** HOVER **/
@@ -141,7 +197,7 @@ body{
     color: $color-secondary;
     display: none;
 }
-@media (max-width:768px){
+@media (max-width:1300px){
     .boton-menu-ppal-contacto {
     text-decoration: none;
     list-style: none;
@@ -159,6 +215,18 @@ body{
     color: $color-menu-hover;
 }
 
+.logo-hamburguesa{
+    display: none;
+}
+
+@media (max-width:1300px){
+    .logo-hamburguesa {
+        display: flex;
+        height: 40px;
+        left: 70%;
+    }
+    }
+
 
 .logo{
     display: flex;
@@ -169,7 +237,7 @@ body{
     box-sizing: content-box; 
 }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     .logo {
         height: 40px;
         left: 70%;
@@ -192,7 +260,7 @@ body{
  
 }
 
-@media (max-width:768px){
+@media (max-width:1300px){
     #menu-derecha {
         display: none;
     }

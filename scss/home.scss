@@ -1,3 +1,5 @@
+
+
 .home-section-01{
     display: flex;
     margin-top: 7.5rem;
@@ -11,6 +13,7 @@
 @media (max-width:768px){
     .home-section-01 {
         margin-bottom: 2.5rem;
+        margin-top: 3.53rem;
     }
     }
 
@@ -22,14 +25,13 @@
     min-width: 100%;
     min-height: 100%;
     @include size(50rem, auto);
-    width: auto;
-    height: 50rem;
     background-color:$color-main;
 }
 
 @media (max-width:768px){
     .home-section-01-video {
         height: 25rem;
+        width: 100%;
     }
     }
 
@@ -55,7 +57,7 @@
 
 @media (max-width:768px){
     .section-01-text {
-        font-size: 23px;
+        font-size: 27px;
     }
     }
 
@@ -72,8 +74,14 @@
     margin-top: 0;
     margin-bottom: 0;
     font-family: $font-main;
-
 }
+
+@media (max-width:768px){
+    .section-01-p {
+        font-size: 15px;
+        
+    }
+    }
 
 .section-01-imagen{
     @include size(60rem, 100%);
@@ -108,14 +116,14 @@
 
 @media (max-width:768px){
     .home-section-02-text {
-        padding: 1.5rem;
+        padding: 0;
     }
     }
 
 
 .section-02-text{
-    font-size: 40px;
-    margin: 0 0 2rem;
+    font-size: 35px;
+    margin: 0 0 2rem 2rem;
     line-height: 1.1;
     font-family: $font-title;
     font-weight: 400;
@@ -123,13 +131,14 @@
 
 @media (max-width:768px){
     .section-02-text {
-        font-size: 30px;
+        font-size: 27px;
+        margin: 0 0 1.5rem 1.5rem;
     }
     }
 
 .section-02-text-p{
-    font-size: 20px;
-    margin: 0 0 2rem;
+    font-size: 17px;
+    margin: 0 1rem 2rem 2rem;
     line-height: 1.1;
     font-family: $font-main;
     font-weight: 300;
@@ -194,3 +203,67 @@
     max-height: 65vh;
 
 }
+
+/**seccion 3 contactanos**/
+
+.home-section-03{
+    background-color: #c1957c;
+    color: #482827;
+    padding: 5rem 0;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.home-section-03-div{
+    max-width: 49.25rem;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.home-section-03-h2{
+    font-size: 35px;
+    margin: 0 0 1.5rem;
+    font-family: $font-main;
+    font-weight: 600;
+}
+
+@media (max-width:768px){
+    .home-section-03-h2 {
+        font-size: 27px;
+        font-weight: 450;
+    }
+    }
+
+.home-section-03-p{
+    margin: 0 0 1.5rem;
+    font-size: 20px;
+    font-family: $font-main;
+    font-weight: 300;
+}
+
+@media (max-width:768px){
+    .home-section-03-p {
+        font-size: 16px;
+    }
+    }
+
+.home-section-03-link{
+    color: #482827;
+    display: inline-block;
+    border-bottom: 1px solid #482827;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: $font-main;
+}
+
+@media (max-width:768px){
+    .home-section-03-link {
+        font-size: 16px;
+    }
+    }

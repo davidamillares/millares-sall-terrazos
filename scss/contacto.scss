@@ -16,6 +16,12 @@
     
 }
 
+@media (max-width:768px){
+    .contacto-section-02-h2 {
+        font-size: 20px;
+    }
+    }
+
 .contacto-section-02-p{
     width: 100%;
     max-width: 788px;
@@ -30,6 +36,13 @@
     font-weight: 350;
     font-family: $font-main;
 }
+
+@media (max-width:768px){
+    .contacto-section-02-p {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    }
 
 //contacto-formulario
 
